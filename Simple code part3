@@ -12,7 +12,7 @@ int main() {
 
     if(num % 2 == 0)
 
-        printf("%d is even.", num);
+        printf("%d is now even.", num);
 
     else
 
