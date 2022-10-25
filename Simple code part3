@@ -1,10 +1,12 @@
 #include <stdio.h>
 
+// c program to check whether a number is even or odd.  
+
 int main() {
 
     int num;
 
-    printf("Enter an any numerical integer: ");
+    printf(" Enter any numerical integer: ");
 
     scanf("%d", &num);
 
@@ -12,13 +14,12 @@ int main() {
 
     if(num % 2 == 0)
 
-        printf("%d is now even.", num);
+      printf("%d is an even integer.", num);
 
     else
 
-        printf("%d is odd.", num);
+        printf("%d is an odd integer.", num);
 
-    
 
     return 0;
 
