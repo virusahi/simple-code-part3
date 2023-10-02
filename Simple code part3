@@ -4,21 +4,21 @@ check whether a number is even or odd.
 
 int main() {
 
-    int num;
+    int n;
 
-    printf(" Please enter any numerical integer: ");
+    printf(" Please enter any integer: ");
 
-    scanf("%d", &num);
+    scanf("%d", &n);
 
     // true if num is perfectly divisible by 2.
 
     if(num % 2 == 0)
 
-      printf("%d is an even integer.", num);
+      printf("%d is an even integer.", n);
 
     else
 
-        printf("%d is an odd integer.", num);
+        printf("%d is an odd integer.", n);
 
 
     return 0;
