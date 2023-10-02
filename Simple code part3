@@ -3,7 +3,7 @@
 check whether a number is even or odd.  
 
 int main() {
-
+//ghithub
     int num;
 
     printf(" Please enter any numerical integer: ");
